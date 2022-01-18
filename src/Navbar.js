@@ -40,7 +40,8 @@ const Navbar = () => {
                     <a href="#">Game-Flipper</a>
                 </Typography>
                 <div className={classes.navlinks}>
-                    <a href="#">Link</a>
+                    <Link to="/">Root</Link>
+                    <Link to="home">Home</Link>
                 </div>
             </Toolbar>
         </AppBar>
